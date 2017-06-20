@@ -1,0 +1,4 @@
+#Thu Jun 15 19:34:19 PDT 2017
+base.0=C\:\\Users\\660161742\\AndroidStudioProjects\\ch04_ex1_TipCalculator\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7
+renamed.0=classes.dex
+file.0=C\:\\Users\\660161742\\AndroidStudioProjects\\ch04_ex1_TipCalculator\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7\\classes.dex

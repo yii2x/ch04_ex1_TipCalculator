@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\660161742\\AndroidStudioProjects\\ch04_ex1_TipCalculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_launcher.png",
+        "source": "C:\\Users\\660161742\\AndroidStudioProjects\\ch04_ex1_TipCalculator\\app\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\660161742\\AndroidStudioProjects\\ch04_ex1_TipCalculator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\reset.png",
+        "source": "C:\\Users\\660161742\\AndroidStudioProjects\\ch04_ex1_TipCalculator\\app\\src\\main\\res\\drawable-ldpi\\reset.png"
+    }
+]
