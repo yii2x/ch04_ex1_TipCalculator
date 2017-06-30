@@ -1,5 +1,20 @@
 <resources>
 
-    <style name="AppTheme" parent="android:Theme.Light" />
+    <style name="AppTheme" parent="android:Theme.Light">
+        <item name="android:textViewStyle">@style/TextView</item>
+    </style>
+
+    <style name="TextView" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="Label" parent="TextView">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="EditText" parent="TextView">
+        <item name="android:background">@color/colorWeightInput</item>
+    </style>
+
 
 </resources>

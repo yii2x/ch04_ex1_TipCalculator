@@ -8,15 +8,15 @@
 
     <TextView
         android:id="@+id/billAmountLabel"
+        style="@style/Label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:text="@string/bill_amount_label"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+        android:text="@string/bill_amount_label" />
 
     <EditText
         android:id="@+id/billAmountEditText"
+        style="@style/EditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/billAmountLabel"
@@ -24,34 +24,31 @@
         android:layout_toRightOf="@+id/billAmountLabel"
         android:ems="8"
         android:inputType="numberDecimal"
-        android:text="@string/bill_amount"
-        android:textSize="20sp" >
+        android:text="@string/bill_amount">
 
         <requestFocus />
     </EditText>
 
     <!-- The tip percent -->
-    
+
     <TextView
         android:id="@+id/percentLabel"
+        style="@style/Label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/billAmountLabel"
         android:layout_below="@+id/billAmountLabel"
         android:padding="10dp"
-        android:text="@string/tip_percent_label"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+        android:text="@string/tip_percent_label" />
 
     <TextView
         android:id="@+id/percentTextView"
+        style="@style/TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/percentLabel"
         android:layout_alignLeft="@+id/billAmountEditText"
-        android:padding="5dp"
-        android:text="@string/tip_percent"
-        android:textSize="20sp" />
+        android:padding="5dp" />
 
     <Button
         android:id="@+id/percentDownButton"
@@ -61,7 +58,6 @@
         android:layout_marginLeft="25dp"
         android:layout_toRightOf="@+id/percentTextView"
         android:text="@string/decrease"
-        android:textSize="20sp"
         android:visibility="invisible" />
 
     <Button
@@ -71,57 +67,55 @@
         android:layout_alignBaseline="@+id/percentDownButton"
         android:layout_toRightOf="@+id/percentDownButton"
         android:text="@string/increase"
-        android:textSize="20sp"
         android:visibility="invisible" />
 
     <!-- the tip amount -->
-    
+
     <TextView
         android:id="@+id/tipLabel"
+        style="@style/Label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/percentLabel"
         android:layout_below="@+id/percentLabel"
         android:padding="10dp"
-        android:text="@string/tip_amount_label"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+        android:text="@string/tip_amount_label" />
 
     <TextView
         android:id="@+id/tipTextView"
+        style="@style/TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/tipLabel"
         android:layout_alignLeft="@id/billAmountEditText"
         android:padding="5dp"
-        android:text="@string/tip_amount"
-        android:textSize="20sp" />
+        android:text="@string/tip_amount" />
 
     <!-- the total -->
-    
+
     <TextView
         android:id="@+id/totalLabel"
+        style="@style/Label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/tipLabel"
         android:layout_below="@+id/tipLabel"
         android:padding="10dp"
-        android:text="@string/total_amount_label"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+        android:text="@string/total_amount_label" />
 
     <TextView
         android:id="@+id/totalTextView"
+        style="@style/TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/totalLabel"
         android:layout_alignLeft="@+id/tipTextView"
         android:padding="5dp"
-        android:text="@string/total_amount"
-        android:textSize="20sp" />
+        android:text="@string/total_amount" />
 
     <TextView
         android:id="@+id/textView"
+        style="@style/TextView"
         android:layout_width="wrap_content"
         android:layout_height="2dp"
         android:layout_alignParentEnd="true"
@@ -134,16 +128,16 @@
         android:text="" />
 
     <RadioGroup
+        android:id="@+id/roundRadioGroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:minHeight="179dp"
-        android:id="@+id/roundRadioGroup"
         android:layout_below="@+id/textView"
-        android:layout_toRightOf="@+id/textView2"
-        android:layout_toEndOf="@+id/textView2"
         android:layout_marginLeft="18dp"
         android:layout_marginStart="18dp"
-        android:layout_marginTop="21dp">
+        android:layout_marginTop="21dp"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_toRightOf="@+id/textView2"
+        android:minHeight="179dp">
 
         <RadioButton
             android:id="@+id/noneRadioButton"
@@ -170,24 +164,22 @@
 
     <TextView
         android:id="@+id/textView2"
+        style="@style/Label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/roundRadioGroup"
-        android:text="Rounding"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+        android:text="Rounding" />
 
     <TextView
         android:id="@+id/textView3"
+        style="@style/Label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Split Bill?"
-        android:textSize="18sp"
-        android:textStyle="bold"
         android:layout_alignBaseline="@+id/splitBillSpinner"
         android:layout_alignBottom="@+id/splitBillSpinner"
         android:layout_toLeftOf="@+id/roundRadioGroup"
-        android:layout_toStartOf="@+id/roundRadioGroup" />
+        android:layout_toStartOf="@+id/roundRadioGroup"
+        android:text="Split Bill?" />
 
     <Spinner
         android:id="@+id/splitBillSpinner"

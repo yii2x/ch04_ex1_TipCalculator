@@ -6,26 +6,26 @@
     density="560dpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1498784221067"
+    timestamp="1498785457157"
     token="-7564410874871080205"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="188" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="29" />
+        duration="0" />
     <task
         name="verifier"
-        duration="6" />
+        duration="0" />
 
     <artifact
-        location="C:\Users\660161742\AndroidStudioProjects\ch04_ex1_TipCalculator\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-        type="SPLIT" />
+        location="C:\Users\660161742\AndroidStudioProjects\ch04_ex1_TipCalculator\app\build\outputs\apk\app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
@@ -67,11 +67,19 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1498784221067"
+        timestamp="1498784832760"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\660161742\AndroidStudioProjects\ch04_ex1_TipCalculator\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1498785457157"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\660161742\AndroidStudioProjects\ch04_ex1_TipCalculator\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

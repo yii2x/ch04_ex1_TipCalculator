@@ -7,6 +7,11 @@
         <item>4 ways</item>
         <item>5 ways</item>
     </string-array>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackground">#1abc9c</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorWeightInput">#F7DC6F</color>
     <string name="app_name">Tip Calculator</string>
     <string name="bill_amount"/>
     <string name="bill_amount_label">Bill Amount</string>
@@ -20,5 +25,16 @@
     <string name="title_activity_tip_calculator">Tip Calculator</string>
     <string name="total_amount">$0.00</string>
     <string name="total_amount_label">Total</string>
-    <style name="AppTheme" parent="android:Theme.Light"/>
+    <style name="AppTheme" parent="android:Theme.Light">
+        <item name="android:textViewStyle">@style/TextView</item>
+    </style>
+    <style name="EditText" parent="TextView">
+        <item name="android:background">@color/colorWeightInput</item>
+    </style>
+    <style name="Label" parent="TextView">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextView" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">24sp</item>
+    </style>
 </resources>
