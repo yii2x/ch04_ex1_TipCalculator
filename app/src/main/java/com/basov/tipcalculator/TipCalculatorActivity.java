@@ -101,8 +101,6 @@ implements OnEditorActionListener, OnClickListener, RadioGroup.OnCheckedChangeLi
         // set the bill amount on its widget
         billAmountEditText.setText(billAmountString);
 
-        splitBillIndex = savedValues.getInt("splitBillIndex", 0);
-
         // calculate and display
         calculateAndDisplay();
     }    
